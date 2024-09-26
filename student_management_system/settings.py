@@ -29,7 +29,8 @@ SECRET_KEY = "badjwknkdnwuiaubn2139y791hniasbukj"  # Consider using your secret 
 DEBUG = True    
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
-ALLOWED_HOSTS = ['*']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS  = ["https://*.kuberns.com"]  # Not recommended but useful in dev mode
 
 
 # Application definition
